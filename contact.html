@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | Moravia Harvest Imports</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.4/dist/tailwind.min.css" integrity="sha384-oOPxG2pw0y3kzfzGte9T6oVbtlLwrI7jvFkLDl7miOgHHGPhDpzO05A1ndI/87hy" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-+s4X2j47HYlvNNmJO53GxmOp2PX2sTqml78pB6cB8zux+snQrxFuPznH6KDnGNh1AptGueasDORlItX+SYdbWg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --background: #faf7f2;
+      --foreground: #4b4b4b;
+      --wine-red: hsl(0, 55%, 28%);
+      --wine-red-light: hsl(0, 48%, 33%);
+      --warm-cream: #faf7f2;
+      --soft-gray: #4b4b4b;
+      --muted-gold: #bfa27a;
+    }
+    body { background-color: var(--background); color: var(--foreground); font-family: 'Inter', sans-serif; }
+    .font-serif { font-family: 'Playfair Display', serif; }
+    .text-wine-red { color: var(--wine-red); }
+    .bg-wine-red { background-color: var(--wine-red); }
+    .bg-wine-red-light { background-color: var(--wine-red-light); }
+    .text-warm-cream { color: var(--warm-cream); }
+    .bg-warm-cream { background-color: var(--warm-cream); }
+    .text-soft-gray { color: var(--soft-gray); }
+    .text-muted-gold { color: var(--muted-gold); }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="bg-warm-cream shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center px-4 py-3">
+      <a href="index.html" class="flex items-center space-x-2">
+        <div class="w-10 h-10 bg-wine-red rounded-full flex items-center justify-center text-white"><i class="fa-solid fa-wine-glass"></i></div>
+        <div class="hidden sm:block">
+          <h1 class="font-serif text-xl font-semibold text-wine-red">Moravia Harvest Imports</h1>
+          <p class="text-xs text-muted-gold -mt-1">Premium Moravian Wines</p>
+        </div>
+      </a>
+      <nav class="hidden md:flex space-x-6 font-medium">
+        <a href="index.html" class="text-soft-gray hover:text-wine-red">Home</a>
+        <a href="about.html" class="text-soft-gray hover:text-wine-red">About</a>
+        <a href="wines.html" class="text-soft-gray hover:text-wine-red">Our&nbsp;Wines</a>
+        <a href="trade.html" class="text-soft-gray hover:text-wine-red">For&nbsp;Trade</a>
+        <a href="contact.html" class="text-wine-red border-b-2 border-wine-red pb-1">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contact heading -->
+  <section class="py-12">
+    <div class="max-w-7xl mx-auto px-4 text-center mb-12">
+      <h1 class="font-serif text-4xl lg:text-5xl font-bold text-wine-red mb-6">Contact Us</h1>
+      <p class="text-xl text-soft-gray max-w-3xl mx-auto">Get in touch with us for inquiries about our wines or trade partnerships.</p>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 grid lg:grid-cols-3 gap-12">
+      <!-- Contact information -->
+      <div class="space-y-6">
+        <div class="border border-gray-100 rounded-lg p-6 flex items-center space-x-4">
+          <div class="w-12 h-12 bg-wine-red/10 rounded-full flex items-center justify-center">
+            <i class="fa-solid fa-envelope text-wine-red"></i>
+          </div>
+          <div>
+            <h3 class="font-medium text-wine-red">Email</h3>
+            <a href="mailto:info@moraviaharvestimports.ca" class="text-soft-gray hover:text-wine-red">info@moraviaharvestimports.ca</a>
+          </div>
+        </div>
+        <div class="border border-gray-100 rounded-lg p-6 flex items-center space-x-4">
+          <div class="w-12 h-12 bg-wine-red/10 rounded-full flex items-center justify-center">
+            <i class="fa-solid fa-phone text-wine-red"></i>
+          </div>
+          <div>
+            <h3 class="font-medium text-wine-red">Phone</h3>
+            <a href="tel:+1-604-XXX-XXXX" class="text-soft-gray hover:text-wine-red">+1 (604) XXX‑XXXX</a>
+          </div>
+        </div>
+        <div class="border border-gray-100 rounded-lg p-6 flex items-center space-x-4">
+          <div class="w-12 h-12 bg-wine-red/10 rounded-full flex items-center justify-center">
+            <i class="fa-solid fa-location-dot text-wine-red"></i>
+          </div>
+          <div>
+            <h3 class="font-medium text-wine-red">Location</h3>
+            <p class="text-soft-gray">Vancouver, BC, Canada</p>
+          </div>
+        </div>
+        <!-- Business hours -->
+        <div class="border border-gray-100 rounded-lg p-6">
+          <h3 class="font-serif text-xl font-semibold text-wine-red mb-4">Business Hours</h3>
+          <div class="space-y-2 text-sm text-soft-gray">
+            <div class="flex justify-between"><span>Monday – Friday</span><span>9:00 AM – 6:00 PM</span></div>
+            <div class="flex justify-between"><span>Saturday</span><span>10:00 AM – 4:00 PM</span></div>
+            <div class="flex justify-between"><span>Sunday</span><span>Closed</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact form -->
+      <div class="lg:col-span-2">
+        <div class="border border-gray-100 rounded-lg p-6">
+          <h2 class="font-serif text-2xl text-wine-red mb-2">Send us a Message</h2>
+          <p class="text-soft-gray mb-6">We'll get back to you within 24 hours during business days.</p>
+          <!-- The form uses a mailto: action to open the user's email client. -->
+          <form action="mailto:info@moraviaharvestimports.ca" method="post" enctype="text/plain" class="space-y-4">
+            <div class="grid md:grid-cols-2 gap-4">
+              <div class="flex flex-col">
+                <label for="name" class="text-sm font-medium text-wine-red mb-1">Full Name</label>
+                <input id="name" name="Name" type="text" placeholder="John Doe" required class="border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-wine-red" />
+              </div>
+              <div class="flex flex-col">
+                <label for="email" class="text-sm font-medium text-wine-red mb-1">Email Address</label>
+                <input id="email" name="Email" type="email" placeholder="john@example.com" required class="border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-wine-red" />
+              </div>
+            </div>
+            <div class="grid md:grid-cols-2 gap-4">
+              <div class="flex flex-col">
+                <label for="phone" class="text-sm font-medium text-wine-red mb-1">Phone Number</label>
+                <input id="phone" name="Phone" type="text" placeholder="+1 (604) 123‑4567" class="border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-wine-red" />
+              </div>
+              <div class="flex flex-col">
+                <label for="company" class="text-sm font-medium text-wine-red mb-1">Company (Optional)</label>
+                <input id="company" name="Company" type="text" placeholder="Restaurant Name" class="border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-wine-red" />
+              </div>
+            </div>
+            <div class="flex flex-col">
+              <label for="subject" class="text-sm font-medium text-wine-red mb-1">Subject</label>
+              <input id="subject" name="Subject" type="text" placeholder="Inquiry about wine selection" class="border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-wine-red" />
+            </div>
+            <div class="flex flex-col">
+              <label for="message" class="text-sm font-medium text-wine-red mb-1">Message</label>
+              <textarea id="message" name="Message" rows="5" placeholder="Please tell us about your wine needs..." class="border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-wine-red"></textarea>
+            </div>
+            <button type="submit" class="w-full bg-wine-red text-warm-cream hover:bg-wine-red-light py-3 rounded-md flex justify-center items-center font-medium">
+              <span>Send Message</span>
+              <i class="fa-solid fa-paper-plane ml-2"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-warm-cream border-t border-gray-200 py-12">
+    <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-3 gap-8">
+      <div>
+        <a href="index.html" class="flex items-center space-x-2 mb-4">
+          <div class="w-8 h-8 bg-wine-red rounded-full flex items-center justify-center text-white"><i class="fa-solid fa-wine-glass"></i></div>
+          <span class="font-serif text-lg font-semibold text-wine-red">Moravia Harvest Imports</span>
+        </a>
+        <p class="text-soft-gray text-sm mb-4">Premium Moravian wines imported directly from Czech Republic's finest wineries. Bringing you the authentic taste of Central European viticulture.</p>
+        <p class="text-soft-gray text-xs">Licensed Alcohol Importer • Fully compliant with Canadian import regulations</p>
+      </div>
+      <div>
+        <h4 class="font-serif text-lg font-semibold text-wine-red mb-3">Navigation</h4>
+        <ul class="space-y-2 text-soft-gray text-sm">
+          <li><a href="index.html" class="hover:text-wine-red">Home</a></li>
+          <li><a href="about.html" class="hover:text-wine-red">About</a></li>
+          <li><a href="wines.html" class="hover:text-wine-red">Our Wines</a></li>
+          <li><a href="trade.html" class="hover:text-wine-red">For Trade</a></li>
+          <li><a href="contact.html" class="hover:text-wine-red">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-serif text-lg font-semibold text-wine-red mb-3">Follow Us</h4>
+        <ul class="flex space-x-4 text-wine-red text-2xl">
+          <li><a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a></li>
+          <li><a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="text-center text-soft-gray text-xs mt-8">© Moravia Harvest Imports. All rights reserved. Please drink responsibly. Must be 19+ to purchase.</div>
+  </footer>
+</body>
+</html>

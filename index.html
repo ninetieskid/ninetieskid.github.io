@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Moravia Harvest Imports</title>
+  <style>
+    body, html {
+      margin: 0; padding: 0;
+      height: 100%; width: 100%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      scroll-behavior: smooth;
+      color: #333;
+      background-color: #fffefa;
+    }
+
+    /* Navigation Bar */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: rgba(0,0,0,0.5);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.8rem 1.5rem;
+      z-index: 999;
+      box-sizing: border-box;
+    }
+
+    .nav-left, .nav-right {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .nav-left a, .nav-right a {
+      color: #f3e6d8;
+      text-decoration: none;
+      margin: 0 0.8rem;
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+
+    .nav-left a:hover, .nav-right a:hover {
+      text-decoration: underline;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: url('vineyard.jpg') no-repeat center center/cover;
+      background-color: #6b4226;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding-top: 6rem;
+      color: #f3e6d8;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin: 0.2rem 0;
+    }
+
+    p.tagline {
+      font-size: 1.2rem;
+      font-style: italic;
+      margin-bottom: 2rem;
+    }
+
+    /* Section Wrapper */
+    .section-wrapper {
+      display: flex;
+      justify-content: center;
+      padding: 4rem 1rem 2rem;
+      width: 100%;
+    }
+
+    .section-card {
+      max-width: 800px;
+      width: 100%;
+      background: #ffffffdd;
+      border-radius: 12px;
+      padding: 2rem;
+      box-shadow: 0 0 12px rgba(107,66,38,0.15);
+      min-height: 320px;
+      box-sizing: border-box;
+    }
+
+    .section-card h2 {
+      color: #6b4226;
+      border-bottom: 2px solid #d4b483;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+      font-size: 1.8rem;
+    }
+
+    .section-card p {
+      line-height: 1.7;
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    a {
+      color: #6b4226;
+      font-weight: 500;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media(max-width: 600px) {
+      nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem;
+      }
+
+      .nav-left, .nav-right {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      .section-card {
+        padding: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="nav-left">
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="nav-right">
+      <a href="cs.html">Čeština</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero" id="home">
+    <h1>Moravia Harvest Imports</h1>
+    <p class="tagline">Moravia’s vineyards, where hidden gems await discovery</p>
+  </div>
+
+  <!-- About Section -->
+  <div class="section-wrapper" id="about">
+    <div class="section-card">
+      <h2>About Moravia Harvest Imports</h2>
+      <p>Moravia Harvest Imports brings the finest wines of Czechia to the Canadian market. We work directly with boutique Moravian wineries to introduce their heritage-rich, small-batch wines to Canadian businesses seeking something truly unique.</p>
+      <p>Our mission is to highlight the distinctive terroir and centuries-old craftsmanship of Czech vineyards — a region still undiscovered by many, yet unforgettable to those who taste it.</p>
+    </div>
+  </div>
+
+  <!-- Work Section -->
+  <div class="section-wrapper" id="work">
+    <div class="section-card">
+      <h2>How We Can Work Together</h2>
+      <p>We are currently onboarding select Canadian partners who value authenticity, regional stories, and outstanding quality. If you are a restaurant, wine merchant, or importer looking to enrich your offering, we'd love to connect.</p>
+      <p>Details of our collaboration process will be available soon. In the meantime, please <a href="#contact">contact us</a> to learn more or express your interest.</p>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="section-wrapper" id="contact">
+    <div class="section-card">
+      <h2>Contact</h2>
+      <p><strong>Get in touch:</strong></p>
+      <p><a href="mailto:viktor@moraviaharvest.ca">viktor@moraviaharvest.ca</a></p>
+      <p><a href="mailto:magda@moraviaharvest.ca">magda@moraviaharvest.ca</a></p>
+    </div>
+  </div>
+
+</body>
+</html>
